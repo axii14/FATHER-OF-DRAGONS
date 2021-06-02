@@ -4,11 +4,11 @@ body {
   padding: 0;
 }
 
-.section {
+.sekziñua {
   width: 100%;
 }
 
-.container {
+.containera {
   position: relative;
   width: 1170px;
   margin: 0 auto;
@@ -19,22 +19,22 @@ body {
   overflow: hidden;
 }
 
-.section .container {
+.sekziñua .containera {
   padding: 30px 0 50px 0;
 }
 
-.section.bg {
+.sekziñua.bg {
   background: #f7f7f7;
 }
 /*
   Header
 */
 
-.hold {
+.batu {
   height: 80px;
 }
 
-.header {
+.headera {
   line-height: 80px;
   width: 100%;
   transition: line-height 0.2s linear, box-shadow 0.2s linear;
@@ -45,16 +45,16 @@ body {
   background: rgba(245, 245, 245, 0.97);
 }
 
-.header.small {
+.headera.small {
   line-height: 50px;
   box-shadow: 0px 1px 3px 0px rgba(50, 50, 50, 0.8);
 }
 
-.header.small > .container > #logo {
+.headera.small > .containera > #logua {
   height: 40px;
 }
 
-#logo {
+#logua {
   position: absolute;
   top: 50%;
   transform: translateY(-85%);
@@ -65,28 +65,28 @@ body {
   margin-left: 5px;
 }
 
-ul.nav {
+ul.nava {
   float: right;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-ul.nav li {
+ul.nava li {
   float: left;
   position: relative;
 }
 
-ul.nav li a {
+ul.nava li a {
   transition: color 0.2s linear;
   font-size: 18px;
 }
 
-ul.nav li:hover a {
+ul.nava li:hover a {
   color: red;
 }
 
-ul.nav li a {
+ul.nava li a {
   padding: 21px;
   color: initial;
   text-decoration: initial;
@@ -95,15 +95,11 @@ ul.nav li a {
   Slider
 */
 
-.section .slider,
-.section .footer {
+.sekziñua .slidera,
+.sekziñua .footer {
   background-image: url("tit5.jpg");
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.918);
-}
-
-.slidercontent {
-  text-align: center;
 }
 
 .hero {
@@ -155,42 +151,42 @@ h1.hero:after {
   Columns 
 */
 
-.col {
+.kol {
   float: left;
   padding: 0;
   margin: 0;
   position: relative;
 }
 
-.col.four {
+.kol.lau {
   width: 23%;
   margin: 0 1%;
 }
 
-.col.three {
+.kol.hiru {
   width: 31.3%;
   margin: 0 1%;
 }
 
-.col.two {
+.kol.bi {
   width: 40%;
   margin: 0 2.5%;
   padding: 0 2.5%;
 }
 
-.col.extrapad {
+.kol.espaziua {
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-.col .service,
-.col .feature {
+.kol .titulua,
+.kol .titulotxua {
   font-size: 21px;
   font-weight: 300;
   font-family: 'Roboto Slab', sans-serif;
 }
 
-.col .service:after {
+.kol .titulua:after {
   content: "";
   width: 50px;
   position: relative;
@@ -201,18 +197,18 @@ h1.hero:after {
   margin-top: 15px;
 }
 
-.col .feature {
+.kol .titulotxua {
   font-size: 19px;
 }
 
-.col h1.side,
-.col p.side,
-.col span.side:first-of-type {
+.kol h1.aldamena,
+.kol p.aldamena,
+.kol span.aldamena:first-of-type {
   margin-left: 50px;
   text-align: left;
 }
 
-.col .icon {
+.kol .ikonua {
   border-radius: 50%;
   height: 85px;
   width: 85px;
@@ -222,7 +218,7 @@ h1.hero:after {
   transition: background 0.25s linear, color 0.25s linear;
 }
 
-.col .icon.side {
+.kol .ikonua.aldamena {
   position: absolute;
   padding: 0;
   margin: 0;
@@ -231,7 +227,7 @@ h1.hero:after {
   width: 50px;
 }
 
-.col:hover > .icon.side {
+.kol:hover > .ikonua.aldamena {
   background: initial;
   color: initial;
 }
@@ -243,48 +239,48 @@ h1.hero:after {
   Column specifics
 */
 
-.col p,
-.col h1 {
+.kol p,
+.kol h1 {
   padding: 0 1%;
   text-align: center;
 }
 
-.group.margin {
+.grupua.margena {
   margin-bottom: 20px;
 }
 
-.col .imgholder {
+.kol .argazkixa {
   height: 300px;
   width: 100%;
   background: #333;
   transition: background 0.3s linear;
 }
 
-.col.bg {
+.kol.bg {
   background: #FFF;
 }
 
-.col.pointer {
+.kol.pointer {
   cursor: pointer;
 }
 
-.col.bg:hover .imgholder {
+.kol.bg:hover .argazkixa {
   background: #555;
 }
 
-.col span.feature {
+.kol span.titulotxua {
   font-size: 20px;
 }
 /*
   Text
 */
 
-.container > h1:not(.hero) {
+.containera > h1:not(.hero) {
   margin-bottom: 30px;
   text-align: center;
 }
 
-.container > h1:after {
+.containera > h1:after {
   content: "";
   width: 30px;
   position: relative;
@@ -308,11 +304,11 @@ h2 {
   text-align: left;
 }
 
-.reset {
+.bukaerakua {
   text-align: left !important;
 }
 
-.reset:after {
+.bukaerakua:after {
   display: none !important;
 }
 /* 
@@ -330,45 +326,45 @@ h2 {
   Responsive
 */
 
-.group:after {
+.grupua:after {
   content: "";
   display: table;
   clear: both;
 }
 
 @media all and (max-width: 768px) {
-  .container {
+  .containera {
     width: 95%;
   }
-  .col.four {
+  .kol.lau {
     width: 48%;
     margin: 1%;
   }
-  .col.three {
+  .kol.hiru {
     display: block;
     width: 95%;
     padding: 0;
     margin: 0 auto;
     float: none;
   }
-  .header {
+  .headera {
     height: auto;
     background: #eee;
   }
-  #logo {
+  #logua {
     position: initial;
     float: none;
     display: block;
     transform: none;
     margin: 10px auto 0 auto;
   }
-  ul.nav {
+  ul.nava {
     float: none;
     display: block;
     text-align: center;
     margin: 0 auto;
   }
-  ul.nav li {
+  ul.nava li {
     float: initial;
     display: inline-block;
   }
@@ -383,36 +379,36 @@ h2 {
 }
 
 @media all and (min-width: 768px) {
-  .container {
+  .containera {
     width: 750px;
   }
 }
 
 @media all and (min-width: 992px) {
-  .container {
+  .containera {
     width: 970px;
   }
 }
 
 @media all and (min-width: 1200px) {
-  .container {
+  .containera {
     width: 1170px;
   }
 }
 
 @media all and (max-width:450px) {
-  .col, .col.four, .col.three, .col.two {
+  .kol, .kol.lau, .kol.hiru, .kol.bi {
     display: block;
     width: 95%;
     padding: 0;
     margin: 0 auto;
     float: none;
   }
-  .col.extrapad {
+  .kol.espaziua {
     padding: 1%;
     margin-bottom: 10px;
   }
-  .group {
+  .grupua {
     display: none;
   }
 }
