@@ -23,7 +23,33 @@ background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAA
 background-size: cover;
 }
     </style>
-    <script>
+    
+  </head>
+  <body>
+
+<h1>Jo ezazu Gollum</h1>
+
+<h2>Zure puntuazioa:</h2>
+<h2 id = "puntuazioa">0</h2>
+
+<h2>Gelditzen den denbora:</h2>
+<h2 id = "denbora">60</h2>
+
+
+<div class = "laukixak">
+  <div class = "karratua" id = "1"></div>
+  <div class = "karratua" id = "2"></div>
+  <div class = "karratua" id = "3"></div>
+  <div class = "karratua" id = "4"></div>
+  <div class = "karratua" id = "5"></div>
+  <div class = "karratua" id = "6"></div>
+  <div class = "karratua" id = "7"></div>
+  <div class = "karratua" id = "8"></div>
+  <div class = "karratua" id = "9"></div>
+</div>
+  </body>
+  <script src = "app.js"  charset = "utf-8"></script>
+  <script>
       const karratua = document.querySelectorAll('.karratua')
 const gollum = document.querySelectorAll('.gollum')
 const denbora = document.querySelector('#denbora')
@@ -67,30 +93,4 @@ function atzera() {
 
 let tenporizadoria = setInterval(atzera, 1000)
     </script>
-  </head>
-  <body>
-
-<h1>Jo ezazu Gollum</h1>
-
-<h2>Zure puntuazioa:</h2>
-<h2 id = "puntuazioa">0</h2>
-
-<h2>Gelditzen den denbora:</h2>
-<h2 id = "denbora">60</h2>
-
-
-<div class = "laukixak">
-  <div class = "karratua" id = "1"></div>
-  <div class = "karratua" id = "2"></div>
-  <div class = "karratua" id = "3"></div>
-  <div class = "karratua" id = "4"></div>
-  <div class = "karratua" id = "5"></div>
-  <div class = "karratua" id = "6"></div>
-  <div class = "karratua" id = "7"></div>
-  <div class = "karratua" id = "8"></div>
-  <div class = "karratua" id = "9"></div>
-</div>
-  </body>
-  <script src = "app.js"  charset = "utf-8"></script>
-  
 </html>
